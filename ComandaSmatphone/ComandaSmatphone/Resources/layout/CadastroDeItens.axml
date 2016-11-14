@@ -10,7 +10,34 @@
         android:text="CADASTRE OS ITENS"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
-        android:layout_height="351.5dp"
+        android:layout_height="322.5dp"
         android:id="@+id/TextoNaTelaCadastro"
         android:textColor="@android:color/holo_blue_dark" />
+    <TextView
+        android:text="NOVO ITEM "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/holo_blue_dark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1" />
+    <TextView
+        android:text="PREÇO DO ITEM "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/holo_blue_dark" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2" />
+    <Button
+        android:text="CADASTRAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
 </LinearLayout>

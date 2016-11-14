@@ -11,8 +11,11 @@ namespace ComandaSmatphone
         {
             base.OnCreate(bundle);
 
+            //Button button = FindViewById<Button>(Resource.Id.button1);
+
+            //button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
             // Set our view from the "main" layout resource
-            // SetContentView (Resource.Layout.Main);
+             SetContentView (Resource.Layout.Main);
         }
     }
 }
