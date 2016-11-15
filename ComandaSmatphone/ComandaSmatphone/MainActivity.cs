@@ -28,10 +28,16 @@ namespace ComandaSmatphone
              SetContentView (Resource.Layout.Main);
 
             itens_na_comanda = new List<string>(); //Instancia a lista de dados para a comanda..
-            itens_na_comanda.Add("Teste para implementação App / 1"); // + preco_produto
-            itens_na_comanda.Add("Teste para implementação App / 2");
-            itens_na_comanda.Add("Teste para implementação App / 3");
-            itens_na_comanda.Add("Teste para implementação App / 4");
+            itens_na_comanda.Add("Teste 0"); // + preco_produto
+            itens_na_comanda.Add("Teste 1");
+            itens_na_comanda.Add("Teste 2");
+            itens_na_comanda.Add("Teste 3");
+            itens_na_comanda.Add("Teste 4");
+            itens_na_comanda.Add("Teste 5");
+            itens_na_comanda.Add("Teste 6");
+            itens_na_comanda.Add("Teste 7");
+            itens_na_comanda.Add("Teste 8");
+            itens_na_comanda.Add("Teste 9");
 
             ListView List = FindViewById<ListView>(Resource.Id.listaDados);
 
