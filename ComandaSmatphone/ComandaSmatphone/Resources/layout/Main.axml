@@ -2,23 +2,102 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
-    <ListView
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="98.0dp"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="93.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="274.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="Dados Pessoais: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1" />
+        </LinearLayout>
+    </LinearLayout>
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/calendarView1"
         android:minWidth="25px"
-        android:minHeight="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="Finalizado"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2" />
+    </CalendarView>
+    <CalendarView
         android:layout_width="match_parent"
-        android:layout_height="313.0dp"
-        android:id="@+id/listaDados" />
+        android:layout_height="70.0dp"
+        android:id="@+id/calendarView1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="Finalizado"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3" />
+    </CalendarView>
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/calendarView1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="Finalizado"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4" />
+    </CalendarView>
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/calendarView1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="Finalizado"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5" />
+    </CalendarView>
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/calendarView1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="Em Aberto"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView6" />
+    </CalendarView>
     <Button
-        android:text="Estabelecimento"
+        android:text="Configuração de conta "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnEstabelecimento" />
-    <Button
-        android:text="Cliente"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnCliente" />
+        android:id="@+id/button1" />
 </LinearLayout>
