@@ -35,17 +35,17 @@
         android:text="Utilizar saldo "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:id="@+id/btnSaldo" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
+        android:id="@+id/btnCartaoCadastrado"
         android:text="Utilizar cartão cadastrado" />
     <Button
         android:text="Utilizar outro cartão "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:id="@+id/btnOutroCartao" />
     <CalendarView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

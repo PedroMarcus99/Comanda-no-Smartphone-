@@ -70,5 +70,5 @@
         android:text="Confirmar definições "
         android:layout_width="match_parent"
         android:layout_height="65.5dp"
-        android:id="@+id/button1" />
+        android:id="@+id/btnConfirmaDefinicao" />
 </LinearLayout>

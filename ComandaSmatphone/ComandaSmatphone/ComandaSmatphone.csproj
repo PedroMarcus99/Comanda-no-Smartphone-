@@ -59,8 +59,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfiguraCartao.cs" />
     <Compile Include="GerenciaListaDeNovosItens.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="PagamentoDaConta.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TelaDeCadastro.cs" />
