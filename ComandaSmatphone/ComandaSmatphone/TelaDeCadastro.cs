@@ -18,7 +18,7 @@ namespace ComandaSmatphone
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.CadastroDeItens);
+            SetContentView(Resource.Layout.ConfiguracaoDePagamento);
             this.ActionBar.SetDisplayHomeAsUpEnabled(true);
             // FindViewById<Button>(Resource.Id.btnEstabelecimento).Click += TelaDeCadastroClick(); 
         }

@@ -41,14 +41,15 @@ namespace ComandaSmatphone
             return position; 
         }
 
-        public  override View GetView(int position, View convertView, ViewGroup parent)
+        // Método desativado para implementação da antiga lista criada. 
+        public override View GetView(int position, View convertView, ViewGroup parent)
         {
             //throw new NotImplementedException();
             View view = convertView;
             if (view == null)
-                view = recebe_definicao.LayoutInflater.Inflate(Resource.Layout.ComandaParaCliente, null);
-            view.FindViewById<TextView>(Resource.Id.textLabel).Text = itens_na_comanda[position];
-            return view; 
+                view = recebe_definicao.LayoutInflater.Inflate(Resource.Layout.ExibicaoDaComanda, null);
+            view.FindViewById<TextView>(Resource.Id.calendarView1).Text = itens_na_comanda[position];
+            return view;
         }
     }
 }
