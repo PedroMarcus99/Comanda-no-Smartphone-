@@ -2,32 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#808080">
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="98.0dp"
-        android:id="@+id/linearLayout1">
-        <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
-            android:layout_width="93.5dp"
-            android:layout_height="match_parent"
-            android:id="@+id/imageView1" />
+        android:id="@+id/linearLayout1"
+        android:minWidth="25px"
+        android:minHeight="25px">
         <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="274.0dp"
-            android:layout_height="match_parent"
-            android:id="@+id/linearLayout2">
-            <TextView
-                android:text="Nome do usuário:"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView1" />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/editText1" />
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="93.5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView1"
+                android:background="@android:color/background_light" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="274.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout2"
+                android:layout_marginLeft="10">
+                <TextView
+                    android:text="Nome Do Usuário"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:textColor="@android:color/background_dark" />
+                <TextView
+                    android:text="Cpf: 87177801367"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textColor="@android:color/background_dark" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -47,19 +62,22 @@
                 android:layout_width="92.5dp"
                 android:layout_height="match_parent"
                 android:id="@+id/textView5"
-                android:layout_marginRight="1.5dp" />
+                android:layout_marginRight="1.5dp"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="Valor Unidade"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="153.5dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView3" />
+                android:id="@+id/textView3"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="Quantidade"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/textView4" />
+                android:id="@+id/textView4"
+                android:textColor="@android:color/background_dark" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -71,19 +89,22 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="93.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView6" />
+                android:id="@+id/textView6"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="R$ 50,00"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="151.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView7" />
+                android:id="@+id/textView7"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="113.5dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView8" />
+                android:id="@+id/textView8"
+                android:textColor="@android:color/background_dark" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -95,19 +116,22 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="93.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView6" />
+                android:id="@+id/textView6"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="R$ 50,00"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="151.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView7" />
+                android:id="@+id/textView7"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="113.5dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView8" />
+                android:id="@+id/textView8"
+                android:textColor="@android:color/background_dark" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -119,19 +143,22 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="93.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView6" />
+                android:id="@+id/textView6"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="R$ 50,00"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="151.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView7" />
+                android:id="@+id/textView7"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="113.5dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView8" />
+                android:id="@+id/textView8"
+                android:textColor="@android:color/background_dark" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -143,19 +170,22 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="93.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView6" />
+                android:id="@+id/textView6"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="R$ 50,00"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="151.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView7" />
+                android:id="@+id/textView7"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="113.5dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView8" />
+                android:id="@+id/textView8"
+                android:textColor="@android:color/background_dark" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -167,19 +197,22 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="93.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView6" />
+                android:id="@+id/textView6"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="R$ 50,00"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="151.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView7" />
+                android:id="@+id/textView7"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="113.5dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView8" />
+                android:id="@+id/textView8"
+                android:textColor="@android:color/background_dark" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -191,24 +224,29 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="93.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView6" />
+                android:id="@+id/textView6"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="R$ 50,00"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="151.0dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView7" />
+                android:id="@+id/textView7"
+                android:textColor="@android:color/background_dark" />
             <TextView
                 android:text="1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="113.5dp"
                 android:layout_height="match_parent"
-                android:id="@+id/textView8" />
+                android:id="@+id/textView8"
+                android:textColor="@android:color/background_dark" />
         </LinearLayout>
     </LinearLayout>
     <Button
         android:text="Pagar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:id="@+id/button1"
+        android:backgroundTint="#ffb4b4b4"
+        android:textColor="@android:color/background_dark" />
 </LinearLayout>

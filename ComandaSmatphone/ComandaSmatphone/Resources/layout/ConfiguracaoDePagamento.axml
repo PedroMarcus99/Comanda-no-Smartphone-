@@ -3,7 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/linearLayout1">
+    android:id="@+id/linearLayout1"
+    android:background="#808080">
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -13,41 +14,67 @@
             android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="93.5dp"
             android:layout_height="match_parent"
-            android:id="@+id/imageView1" />
+            android:id="@+id/imageView1"
+            android:background="@android:color/background_light" />
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="274.0dp"
             android:layout_height="match_parent"
-            android:id="@+id/linearLayout2">
+            android:id="@+id/linearLayout2"
+            android:layout_marginLeft="10">
             <TextView
-                android:text="Saldo Disponível "
+                android:text="Nome Do Usuário"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView1" />
-            <EditText
+                android:id="@+id/textView1"
+                android:textColor="@android:color/background_dark" />
+            <TextView
+                android:text="Cpf: 87177801367"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText1" />
+                android:id="@+id/textView3"
+                android:textColor="@android:color/background_dark" />
         </LinearLayout>
     </LinearLayout>
+    <TextView
+        android:text="Finalizar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="46.0dp"
+        android:id="@+id/textView2"
+        android:foregroundTint="#00000000"
+        android:backgroundTint="#00000000"
+        android:textColor="#006400"
+        android:paddingLeft="110"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        android:typeface="serif" />
     <Button
         android:text="Utilizar saldo "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSaldo" />
+        android:id="@+id/btnSaldo"
+        android:backgroundTint="#ffb4b4b4"
+        android:textColor="@android:color/background_dark" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCartaoCadastrado"
-        android:text="Utilizar cartão cadastrado" />
+        android:text="Utilizar cartão cadastrado"
+        android:backgroundTint="#ffb4b4b4"
+        android:textColor="@android:color/background_dark" />
     <Button
         android:text="Utilizar outro cartão "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnOutroCartao" />
+        android:id="@+id/btnOutroCartao"
+        android:backgroundTint="#ffb4b4b4"
+        android:textColor="@android:color/background_dark" />
     <CalendarView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/calendarView1" />
+        android:id="@+id/calendarView1"
+        android:background="#696969" />
 </LinearLayout>

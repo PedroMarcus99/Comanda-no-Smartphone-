@@ -25,6 +25,7 @@ namespace ComandaSmatphone
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
 
+            /*
             //Aqui é instanciado o botão a ser utilizado para a exibição da mensagem de confirmação!
             Button mensagem = FindViewById<Button>(Resource.Id.btnConfirmaDefinicao);
             mensagem.Click += delegate
@@ -43,8 +44,9 @@ namespace ComandaSmatphone
                 });
                 alerta.Show();
                 //Fim da exibição da mensage. 
-            };
+            }; 
 
+            
             //Abaixo o código para salvar ou não a alteração. 
             Button salva_confirmacao = FindViewById<Button>(Resource.Id.btnConfirmaDefinicao);
             salva_confirmacao.Click += delegate
@@ -71,7 +73,7 @@ namespace ComandaSmatphone
                 Dialog dialogo = alerta_de_confirmacao.Create();
                 dialogo.Show(); 
 
-            };
+            }; */
 
 
             FindViewById<Button>(Resource.Id.btnConfigura).Click += NovoCartaoCadastrado; // abre a tela de configuração de contas.. 
