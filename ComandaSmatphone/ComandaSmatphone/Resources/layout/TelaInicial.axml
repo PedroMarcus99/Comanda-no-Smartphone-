@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="98.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginBottom="40.5dp">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="93.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1"
+            android:background="@android:color/background_light" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="274.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2"
+            android:layout_marginLeft="10">
+            <TextView
+                android:text="Nome Do Usuário"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textColor="@android:color/background_dark" />
+            <TextView
+                android:text="Cpf: 87177801367"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="@android:color/background_dark" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:text="Comanda Eletrônica"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="36.5dp"
+        android:id="@+id/textView2"
+        android:foregroundTint="#00000000"
+        android:backgroundTint="#00000000"
+        android:textColor="@android:color/background_dark"
+        android:paddingLeft="70"
+        android:textSize="25.5sp"
+        android:textStyle="normal"
+        android:typeface="serif" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Minhas Informações"
+        android:textColor="@android:color/background_dark"
+        android:backgroundTint="#ffb4b4b4"
+        android:layout_marginLeft="80"
+        android:layout_marginRight="80"
+        android:layout_marginTop="70" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Comandas"
+        android:textColor="@android:color/background_dark"
+        android:backgroundTint="#ffb4b4b4"
+        android:layout_marginRight="80"
+        android:layout_marginLeft="80" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="210.5dp"
+        android:id="@+id/linearLayout3"
+        android:paddingTop="150">
+        <TextView
+            android:text="Saldo:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:foregroundTint="#00000000"
+            android:backgroundTint="#00000000"
+            android:textColor="@android:color/background_dark"
+            android:textSize="45.5sp"
+            android:textStyle="normal"
+            android:typeface="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="120" />
+        <TextView
+            android:text="00,00"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:foregroundTint="#00000000"
+            android:backgroundTint="#00000000"
+            android:textColor="@android:color/background_dark"
+            android:textSize="45.5sp"
+            android:textStyle="normal"
+            android:typeface="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
