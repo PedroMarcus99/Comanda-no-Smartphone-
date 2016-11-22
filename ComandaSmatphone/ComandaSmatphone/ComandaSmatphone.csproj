@@ -59,6 +59,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcessoAComanda.cs" />
+    <Compile Include="AcessoAInformacoes.cs" />
     <Compile Include="ConfiguraCartao.cs" />
     <Compile Include="GerenciaListaDeNovosItens.cs" />
     <Compile Include="MainActivity.cs" />

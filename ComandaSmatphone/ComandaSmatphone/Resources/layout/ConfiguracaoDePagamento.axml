@@ -20,8 +20,7 @@
             android:orientation="vertical"
             android:layout_width="274.0dp"
             android:layout_height="match_parent"
-            android:id="@+id/linearLayout2"
-            android:layout_marginLeft="10">
+            android:id="@+id/linearLayout2">
             <TextView
                 android:text="Nome Do Usuário"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -47,7 +46,6 @@
         android:foregroundTint="#00000000"
         android:backgroundTint="#00000000"
         android:textColor="#006400"
-        android:paddingLeft="110"
         android:textSize="40sp"
         android:textStyle="normal"
         android:typeface="serif" />

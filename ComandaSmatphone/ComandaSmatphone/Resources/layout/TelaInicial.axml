@@ -20,8 +20,7 @@
             android:orientation="vertical"
             android:layout_width="274.0dp"
             android:layout_height="match_parent"
-            android:id="@+id/linearLayout2"
-            android:layout_marginLeft="10">
+            android:id="@+id/linearLayout2">
             <TextView
                 android:text="Nome Do Usuário"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -47,35 +46,28 @@
         android:foregroundTint="#00000000"
         android:backgroundTint="#00000000"
         android:textColor="@android:color/background_dark"
-        android:paddingLeft="70"
         android:textSize="25.5sp"
         android:textStyle="normal"
         android:typeface="serif" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
+        android:id="@+id/btnMinhasInformacoes"
         android:text="Minhas Informações"
         android:textColor="@android:color/background_dark"
-        android:backgroundTint="#ffb4b4b4"
-        android:layout_marginLeft="80"
-        android:layout_marginRight="80"
-        android:layout_marginTop="70" />
+        android:backgroundTint="#ffb4b4b4" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
+        android:id="@+id/btnComanda"
         android:text="Comandas"
         android:textColor="@android:color/background_dark"
-        android:backgroundTint="#ffb4b4b4"
-        android:layout_marginRight="80"
-        android:layout_marginLeft="80" />
+        android:backgroundTint="#ffb4b4b4" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="210.5dp"
-        android:id="@+id/linearLayout3"
-        android:paddingTop="150">
+        android:id="@+id/linearLayout3">
         <TextView
             android:text="Saldo:"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -87,8 +79,7 @@
             android:textStyle="normal"
             android:typeface="serif"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:paddingLeft="120" />
+            android:layout_height="match_parent" />
         <TextView
             android:text="00,00"
             android:textAppearance="?android:attr/textAppearanceLarge"

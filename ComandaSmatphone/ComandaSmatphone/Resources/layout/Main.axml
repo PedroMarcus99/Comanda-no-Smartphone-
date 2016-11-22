@@ -19,8 +19,7 @@
             android:orientation="vertical"
             android:layout_width="274.0dp"
             android:layout_height="match_parent"
-            android:id="@+id/linearLayout2"
-            android:layout_marginLeft="10">
+            android:id="@+id/linearLayout2">
             <TextView
                 android:text="Nome Do Usuário"
                 android:textAppearance="?android:attr/textAppearanceLarge"

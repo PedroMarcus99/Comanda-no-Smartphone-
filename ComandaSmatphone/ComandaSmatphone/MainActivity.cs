@@ -20,10 +20,10 @@ namespace ComandaSmatphone
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-           // Button button = FindViewById<Button>(Resource.Id.btnEstabelecimento);          
+            //Button button = FindViewById<Button>(Resource.Id.btnEstabelecimento);          
             //button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
             // Set our view from the "main" layout resource
-            SetContentView (Resource.Layout.Main);
+            SetContentView (Resource.Layout.TelaInicial);
 
             /*
             //Aqui é instanciado o botão a ser utilizado para a exibição da mensagem de confirmação!
@@ -76,15 +76,17 @@ namespace ComandaSmatphone
             }; */
 
 
-            FindViewById<Button>(Resource.Id.btnConfigura).Click += NovoCartaoCadastrado; // abre a tela de configuração de contas.. 
+            //FindViewById<Button>(Resource.Id.btnConfigura).Click += NovoCartaoCadastrado; // abre a tela de configuração de contas.. 
             FindViewById<Button>(Resource.Id.btnOutroCartao).Click += NovoCartaoCadastrado; // Abre a tela de configuraçaõ de contas.. 
             FindViewById<Button>(Resource.Id.btnSaldo).Click += PagamentoDaConta; // Abre a tela de comanda para o pagamento.. 
             FindViewById<Button>(Resource.Id.btnCartaoCadastrado).Click += PagamentoDaConta; //Abre a tela de comanda para o pagamento.. 
+            FindViewById<Button>(Resource.Id.btnComanda).Click += MinhasComandas; //Abre a tela das comandas.. 
+            FindViewById<Button>(Resource.Id.btnMinhasInformacoes).Click += MinhasInformacoes; //Abre a tela de informações do usuário.. 
 
 
 
             itens_na_comanda = new List<string>(); //Instancia a lista de dados para a comanda..
-            itens_na_comanda.Add("Teste 0"); // + preco_produto
+            itens_na_comanda.Add("Teste 0");
             itens_na_comanda.Add("Teste 1");
             itens_na_comanda.Add("Teste 2");
             itens_na_comanda.Add("Teste 3");
@@ -117,7 +119,7 @@ namespace ComandaSmatphone
 
         void NovoCartaoCadastrado(object sender, EventArgs e)
         {
-            // nova pagina
+            // nova pagina de configurações
             var myIntent = new Intent(this, typeof(ConfiguraCartao));
             StartActivityForResult(myIntent, 0);
         }
@@ -126,6 +128,17 @@ namespace ComandaSmatphone
             //Nova tala de pagamento
             var myIntent = new Intent(this, typeof(PagamentoDaConta));
             StartActivityForResult(myIntent, 0); 
+        }
+        void MinhasComandas(object sender, EventArgs e)
+        {
+            //Nova tela de comanda
+            var myIntent = new Intent(this, typeof(AcessoAComanda));
+            StartActivityForResult(myIntent, 0); 
+        }
+        void MinhasInformacoes(object sender, EventArgs e)
+        {
+            var myIntent = new Intent(this, typeof(AcessoAInformacoes));
+            StartActivityForResult(myIntent, 0);
         }
     }
 }
