@@ -48,26 +48,34 @@
         android:textColor="@android:color/background_dark"
         android:textSize="25.5sp"
         android:textStyle="normal"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:layout_marginLeft="70" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnMinhasInformacoes"
         android:text="Minhas Informações"
         android:textColor="@android:color/background_dark"
-        android:backgroundTint="#ffb4b4b4" />
+        android:backgroundTint="#ffb4b4b4"
+        android:layout_marginTop="50"
+        android:layout_marginLeft="70"
+        android:layout_marginRight="70" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnComanda"
         android:text="Comandas"
         android:textColor="@android:color/background_dark"
-        android:backgroundTint="#ffb4b4b4" />
+        android:backgroundTint="#ffb4b4b4"
+        android:layout_marginRight="70"
+        android:layout_marginLeft="70" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="210.5dp"
-        android:id="@+id/linearLayout3">
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="170"
+        android:layout_marginLeft="130">
         <TextView
             android:text="Saldo:"
             android:textAppearance="?android:attr/textAppearanceLarge"
